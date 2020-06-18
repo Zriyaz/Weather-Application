@@ -1,0 +1,24 @@
+
+:root {
+  --mainDark: #242325;
+  --mainGreen: #61e786;
+  --mainWhite: #fff;
+  --mainGrey: #eeeeee;
+}
+
+body{
+  background:rgb(173, 91, 104);
+  margin-top:3rem;
+}
+.contact{
+  color: var(--mainWhite);
+}
+.contact-btn{
+  background: transparent;
+  border: 0.1rem solid var(--mainWhite);
+  color:var(--mainWhite);
+}
+.contact-btn:hover{
+  background: var(--mainWhite);
+  color: var(--mainGreen);
+}
