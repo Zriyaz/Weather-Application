@@ -1,7 +1,7 @@
   import React, {Component} from "react"
   import { connect } from "react-redux"
   import {bindActionCreators} from "redux"
-  import  "../styles/searchbar.css"
+  import  "../style/searchbar.css"
   import {fetchWeather} from "../actions/index"
 
   class SearchBar extends Component{
@@ -29,11 +29,11 @@
           <div className="co-sm-4 mx-auto col-md-6 my-3 d-flex align-items-center">
               <form 
               onSubmit={this.onFormSubmit}
-              className="form-inline">
+              className=" form-group  form-inline">
                 <input 
                 value={this.state.term}
                 onChange={this.onInputChange}
-                className="form-control text-capitalize mx-2 my-2"
+                className="form-control input-lg text-capitalize my-2"
                 placeholder="your city name"
                 />
                 <button type="submit" className="btn contact-btn mx-2 my-2 text-capitalize">search
